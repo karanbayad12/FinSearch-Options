@@ -1,14 +1,8 @@
 # Option Pricing Models
-1. Black-Scholes model    
-2. Monte Carlo sim 
+Black-Scholes Merton, Monte Carlo sim 
 
 parameters needed to import:  
-
-- Ticker  
-- Strike price  
-- Expiry date  
-- Risk-free rate  
-- Volatility  
+ticker, strike price, expiry date, risk-free rate, volatility  
 
 Option pricing models are implemented in [Python 3.7](https://www.python.org/downloads/release/python-377/). Latest spot price, for specified ticker, is fetched from Yahoo Finance API using [pandas-datareader](https://pandas-datareader.readthedocs.io/en/latest/). Visualization of the models through simple web app is implemented using [streamlit](https://www.streamlit.io/) library.  
 
